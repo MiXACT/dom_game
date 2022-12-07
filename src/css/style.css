@@ -1,0 +1,8 @@
+.playground {
+	width: 480px;
+	height: 480px;
+	border: 1px solid green;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
