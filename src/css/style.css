@@ -1,8 +1,22 @@
 .playground {
-	width: 480px;
-	height: 480px;
+	width: 500px;
+	height: 500px;
 	border: 1px solid green;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
+	justify-content: space-around;
 }
+
+.box {
+	width: 120px;
+	height: 120px;
+	border: 1px solid gray;
+}
+
+.goblin {
+	background-image: url("../img/goblin.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
