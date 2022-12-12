@@ -1,1 +1,1 @@
-[![CI](https://github.com/MiXACT/dom_game/actions/workflows/web.yml/badge.svg)](https://github.com/MiXACT/dom_game/actions/workflows/web.yml)
+[![CI](https://github.com/MiXACT/dom_game/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/MiXACT/dom_game/actions/workflows/jekyll-gh-pages.yml)
