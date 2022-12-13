@@ -1,7 +1,13 @@
 let prevBox;
 let boxId;
 const goblinOn = 'box goblin';
-const goblinOff = 'box'
+const goblinOff = 'box';
+
+function goblinTrigger(goblinBox, status) {
+	const box = document.getElementById(`box${goblinBox}`);
+	box.className = status;
+}
+
 const goblin = () => setInterval(() => {
 	if (prevBox) goblinTrigger(prevBox, goblinOff);
 	do {
@@ -11,9 +17,6 @@ const goblin = () => setInterval(() => {
 	goblinTrigger(boxId, goblinOn);
 }, 800);
 
-function goblinTrigger(goblinBox, status) {
-	const box = document.getElementById(`box${goblinBox}`);
-	box.className = status;
-}
+export { goblinTrigger, goblin };
 
 goblin();

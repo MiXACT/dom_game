@@ -1,1 +1,3 @@
-// TODO: write code here
+export default function demo(value) {
+	return `Demo: ${value}`;
+  }
