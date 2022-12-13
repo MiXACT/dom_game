@@ -1,1 +1,2 @@
 [![CI](https://github.com/MiXACT/dom_game/actions/workflows/web.yml/badge.svg)](https://github.com/MiXACT/dom_game/actions/workflows/web.yml)
+[![Build status](https://ci.appveyor.com/api/projects/status/s8l4f34dubxjtuul?svg=true)](https://ci.appveyor.com/project/MiXACT/dom-game)
